@@ -214,23 +214,20 @@ $(document).ready
 					</div>
 				</div>
 				<div class="textStyle">
-					Here at Brighton, we've worked very hard to tailor our service and client experience to a specific kind of client; the modern yet conservative long-term investor. With so many choices of financial advisors, knowing what the differences are can mean everything to getting the right fit.  
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="sample">
-From what type of firm they work with,
-</a>
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Jerimiah 29:11">
-to fee structures,
-</a>
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Jerimiah 29:11">
-to service models,
-</a>
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Jerimiah 29:11">
+					Here at Brighton, we've worked very hard to tailor our service and client experience to a specific kind of client; the modern yet conservative long-term investor. With so many choices for financial advisors, knowing the differences between them can mean everything to getting the right fit.  
+From what type of <a onclick="$('#firmModal').modal('toggle');"style="color:#6FB353;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">firm</a> 
+they work with,
+
+to <a onclick="$('#feeModal').modal('toggle');"style="color:#6FB353;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">fee</a> structures,
+
+to <a onclick="$('#serviceModal').modal('toggle');"style="color:#6FB353;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">service</a> models,
+<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">
 to certifications and licenses
 </a>
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Jerimiah 29:11">
+<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">
 to investment philosophies 
 </a>
-<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Jerimiah 29:11">
+<a onclick="$('#modal1').modal('toggle');"style="color:white;text-decoration:none;" data-placement="top" data-toggle="tooltip" title="Click me">
 to types of investments they recommend, 
 </a>
 all of it matters greatly and we urge you to look deeply into the matter.  This may be the most important professional relationship you have.
@@ -461,6 +458,72 @@ all of it matters greatly and we urge you to look deeply into the matter.  This 
 
   </div>
 </div>
+
+<div id="firmModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">About Our Firm</h4>
+      </div>
+      <div class="modal-body">
+        <p>Does the advisor work for a bank -owned Broker/Dealer or an insurance company, or are they independent?  Advisors who work for big Broker/Dealers like Meryl Lynch (Bank of America owned) or Morgan Stanley (Chase owned) can have great  resources but with sales managers, quotas and bonuses, can their advice truly be considered unbiased? 
+Consider insurance companies like New York Life and Prinipal Financial; advisors for these firms are primarily insurance agents who may also work with investments, and they are often compensated more for selling their company's products over another.  Many times, these agents do not have full investment licenses and so cannot offer certain investments that may be appropriate for you.  Again, can their advice truly be considered unbiased?
+Brighton Investment Advisors is an independent advisory firm which means we are not beholden to anyone but our clients, and are free to recommend only what we believe to be in their best interest.  We choose LPL Financial to be our Broker/Dealer because they are the largest firm in the country servicing independent advisors like us.  So we have the strength and resources we need, with the unbiased approach you want.  This makes a big difference.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="feeModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">About Our Fees</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you a long-term investor or a short-term trader?  Do you think you should choose high quality investments and hang on to them, or do you like to switch things around often?  Well each of these investment styles has a fee-structure that best goes along with it.  The problem is that many advisors only recommend one kind of fee structure whether it is the better fit for you or not.  
+At Brighton Investment Advisors we are free to offer whatever fee structure best suits our client's needs and that leads to significant savings over the long-term to our clients.  This makes a big difference.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="serviceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">About Our Service Model</h4>
+      </div>
+      <div class="modal-body">
+        <p>Every advisor claims to give great service and most of them do a good job, especially for their biggest clients.  It's no secret that advsiors group their clients into tiers and deliver pre-set and specific service models for each.  It is also well known that most established advisors have investment minimums; i.e. you must have $250,000 to invest with them.  This can leave many people feeling unimportant and that their investments are not being looked after.  Not so at Brighton Investor Advisors.  We are happy to give our very best service to all clients whose outlook and philosophies makes us a good fit to help them. From the single mom looking to start her first ROTH IRA, to the very experienced multi-million dollar portfolio owners.
+We also don't feel the need to drag folks into the office because the calendar says it is time like with many advisors.  Our clients are very busy with their own lives, so we believe in a "real-life" service model; We'll use e-mail and phone when appropriate and we will meet when something about your investments need special attention or when something about your personal circumstances has changed.  We're always watching things for our clients, and always available to help, but we are intent on saving you time as far as we can help it.  This makes a big difference.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 
 
