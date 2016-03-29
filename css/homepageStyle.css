@@ -379,6 +379,16 @@ visibility: hidden;
 
 
 @media only screen and (max-width: 768px) {
+    #daveRamseyMessage
+    {
+        width: 90%;
+        padding-left: 5%;
+    }
+    #daveRamseyTitle
+    {
+        width: 90%;
+        padding-left: 5%;
+    }
     .mobileShow
     {
         display:inline;
@@ -386,7 +396,7 @@ visibility: hidden;
     }
     .mobileHide
     {
-        display: hidden;
+        display: none;
         visibility: hidden;
     }
     .bioPhoto
