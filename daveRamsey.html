@@ -33,7 +33,22 @@
 
   ga('create', 'UA-74730043-1', 'auto');
   ga('send', 'pageview');
+  jQuery(function($){
 
+$(window).scroll(
+    function()
+    {if( $(this).scrollTop() == 0 ) 
+        {$('#navMain').css("opacity",1)}
+else
+    {
+        $('#navMain').css("opacity",.9)
+    }
+
+
+
+})
+
+});
 </script>
         <div id="navMain" style="opacity:.9;" class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
     
