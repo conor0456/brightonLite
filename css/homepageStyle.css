@@ -21,7 +21,7 @@ html,body
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
 }
 
 .bio-left
@@ -29,7 +29,7 @@ html,body
     padding-top:70px;
     text-align: left;
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     letter-spacing:0.1em;
     text-transform: lowercase;
     font-size: 14pt;
@@ -49,7 +49,7 @@ html,body
     padding-top:70px;
     text-align: right;
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     letter-spacing:0.1em;
     text-transform: lowercase;
     font-size: 14pt;
@@ -125,9 +125,9 @@ body
 }
 #daveRamseyTitle
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: -.9px;
     line-height: 50px;
     
@@ -178,7 +178,7 @@ body
     color:white;
     padding-top:50px;
     /*font-family:'Open Sans', sans-serif;*/
-    font-family:14px/22px "Titillium Web";
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     font-weight:100;
     width: 90%;
     margin-left: 5%;
@@ -191,7 +191,7 @@ body
 #header
 {
     margin-top: 0px;
-    height:98vh;
+    height:100vh;
     width:auto;
     color: white;
     text-align: center;
@@ -199,15 +199,20 @@ body
 
 .headerText
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-    padding-left: 20%;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
+    padding-left: 10%;
     width:auto;
-    padding-right: 20%;
+    padding-right: 10%;
     text-align: center;
-    font-size: 58px;
-    letter-spacing: -.9px;
+
+    
     line-height: 50px;
-    font-weight: bold;
+    
+
+
+    font-weight:500;
+    font-size:50px;
+    
 }
 
 #infoDiv
@@ -216,14 +221,14 @@ body
     min-height:500px;
     height:auto;
     background-color: white;
-    font-family: 'Didot', 'Didot LT STD', 'Hoefler Text', Garamond, 'Time';
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     display: table;
 }
 
 p 
 {
     color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     letter-spacing:0.1em;
     text-align:left;
     text-transform: lowercase;
@@ -320,7 +325,7 @@ q:after
 }
 .subText
 {
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
     padding-left: 20%;
     width:auto;
     padding-right: 20%;
@@ -338,7 +343,7 @@ q:after
     padding-left:10%;
     padding-right:10%;
     font-size:23px; 
-    font-family:'Adobe Caslon Pro', 'Hoefler Text', Georgia, Garamond;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
 }
 
 .title
@@ -348,7 +353,7 @@ q:after
     display: block; 
     margin: 0px auto; 
     text-align: center;
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, Time;
+    font-family: "DIN Web", "Hiragino Sans GB", STXihei, 华文细黑, "Microsoft YaHei", 微软雅黑, sans-serif;font-weight:100;
 }
 
 #whatMakesUsDifferent
