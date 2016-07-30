@@ -271,6 +271,7 @@ p
 {
     margin-top: 0px;
     height:90vh;
+    height:auto;
     width:auto;
     color: white;
     text-align: center;
@@ -365,6 +366,7 @@ q:after
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+
 }
 
 
@@ -435,6 +437,7 @@ visibility: hidden;
     #whatMakesUsDifferent
     {
         padding-bottom: 30px;
+        padding-top:950px;
     }
     .subText
     {
@@ -455,6 +458,14 @@ visibility: hidden;
     .footerText
     {
         text-align: center !important;
+    }
+    #pic
+    {
+        height:auto;
+    }
+    .textStyle
+    {
+        font-size:20px;
     }
     #socialDiv
     {
