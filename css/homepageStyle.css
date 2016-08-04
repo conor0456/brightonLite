@@ -269,9 +269,8 @@ p
 }
 #pic
 {
-    margin-top: 0px;
+   margin-top: 0px;
     height:90vh;
-    height:auto;
     width:auto;
     color: white;
     text-align: center;
@@ -461,7 +460,7 @@ visibility: hidden;
     }
     #pic
     {
-        height:auto;
+        height:500px;
     }
     .textStyle
     {
